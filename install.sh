@@ -331,8 +331,8 @@ tls_config() {
 
 	while :; do
 		echo
-		echo -e "Please input a $magenta corrected domain name$none£¬it MUST be NORMAL!"
-		read -p "(For example£º233blog.com): " domain
+		echo -e "Please input a $magenta corrected domain name$none,it MUST be NORMAL!"
+		read -p "(For example:233blog.com): " domain
 		[ -z "$domain" ] && error && continue
 		echo
 		echo

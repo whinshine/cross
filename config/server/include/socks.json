@@ -1,0 +1,16 @@
+        {
+            "protocol": "socks",
+            "port": 6666,
+            "settings": {
+                "auth": "password",
+                "accounts": [
+                    {
+                        "user": "vCross",
+                        "pass": "vCross_Danes"
+                    }
+                ],
+                "udp": true,
+                "timeout": 0,
+                "userLevel": 1
+            }
+        }

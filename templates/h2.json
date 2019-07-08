@@ -1,0 +1,38 @@
+{
+	"port": 1533, // v2ray port
+	"protocol": "vmess",
+	"settings": {
+		"clients": [
+			{
+				"id": "e55c8d17-2cf3-b21a-bcf1-eeacb011ed79", // uuid
+				"level": 1,
+				"alterId": 153 // alterid
+			}
+		]
+	},
+	"streamSettings": {
+		"network": "h2",
+		"httpSettings": {
+			"host": [
+				"heidark.ga" // domain
+			],
+			"path": "/beowulf" // path
+		},
+		"security": "tls",
+		"tlsSettings": {
+			"certificates": [
+				{
+					"certificateFile": "/etc/v2ray/vCross/v2ray/config/heidark.ga.cer",
+					"keyFile": "/etc/v2ray/vCross/v2ray/config/heidark.ga.key"
+				}
+			]
+		}
+	},
+	"sniffing": {
+		"enabled": true,
+		"destOverride": [
+			"http",
+			"tls"
+		]
+	}
+}

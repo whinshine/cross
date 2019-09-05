@@ -13,6 +13,8 @@ _qr_create() {
 	echo " V2Ray Client user guide: https://233v2.com/post/4/"
 	echo
 	echo
+	echo  $link > /etc/v2ray/qr.txt
+	echo "please refer to /etc/v2ray/qr.txt"
 	rm -rf /etc/v2ray/vmess_qr.json
 }
 _ss_qr() {
